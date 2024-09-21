@@ -1,0 +1,303 @@
+WEEK 1
+
+1-1: Unit introduction
+https://uob-my.sharepoint.com/:v:/g/personal/fz19826_bristol_ac_uk/EbkMSWQvKypLlZL5WRHa5hsBAXWIAujTQLdQwE9ntotuGg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SSdhXe
+
+1-2: Induction
+https://web.microsoftstream.com/video/f9b002c0-ee53-439e-9d2b-93b146378cf3)
+
+1-3: Defining O-notation
+https://uob-my.sharepoint.com/:v:/g/personal/fz19826_bristol_ac_uk/EWHDxKRJW0VHrBfW4SdEZXEB_R_9u5JZrD_KMyoVyDoxvg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dw3Z4L
+
+1-4: Using O-notation
+https://web.microsoftstream.com/video/71184484-ac02-47be-8725-18c7d99aaf8c
+
+Readings:
+
+- Cormen et al.: Chapters 3.1 and 3.2 cover O-notation.
+- Kleinberg and Tardos: Chapters 2.1 and 2.2 cover O-notation.
+- Skiena: Chapter 1.3 covers proof in general, with 1.3.4 dedicated to induction in particular. Chapters 2.1 to 2.5 cover O-notation.
+
+Errata:
+
+None
+
+--------------------------------------------------------------------------------------
+
+WEEK 2
+
+2-1: Greedy algorithms and interval scheduling
+https://web.microsoftstream.com/video/29d25fdb-e1ad-465c-add0-fed869967334
+
+2-2: Correctness proofs for interval scheduling
+https://web.microsoftstream.com/video/be5ba104-5fc1-4411-99a3-11c16bdce8a2
+
+2-3: The bridges of Königsberg
+https://web.microsoftstream.com/video/ecc0634a-c6e4-4d75-a7f0-22dcc38f8ab5
+
+2-4: When does a graph have an Euler walk?
+https://web.microsoftstream.com/video/6bddb899-7fed-4618-a25a-af0ac77069aa
+
+Readings:
+
+- Cormen et al.: 16.1 covers interval scheduling, 16.2 discusses greedy algorithms more generally.
+- Erickson: 4.2-4.3 covers interval scheduling, 5.1 covers the history of graphs and Eulera walks, and 5.2 overs some basic definitions.
+- Kleinberg and Tardos: 4.1 covers interval scheduling and greedy algorithms and 3.1 covers graphs.
+- Skiena: 1.2 covers interval scheduling, 5.1 covers graphs, and 15.7 covers Euler walks.
+Bondy and Murty, Graph Theory with Applications: 4.1 covers Euler walks.
+
+Errata:
+
+None
+
+--------------------------------------------------------------------------------------
+
+WEEK 3
+
+3-1: Directed Euler walks
+https://web.microsoftstream.com/video/afe4bc08-12b6-4eba-a5ca-f1eb000a0215
+
+3-2: Hamilton cycles
+https://web.microsoftstream.com/video/f756ccf9-7cea-44e1-8c26-fa2eedcf490e
+
+3-3: Shaking hands
+https://web.microsoftstream.com/video/ce5aaf13-6c85-4b69-b7b7-489abe2676ee
+
+3-4: Trees
+https://web.microsoftstream.com/video/80c862c5-3c2e-40f3-afa6-557e5519c5bc?list=studio
+
+Readings:
+
+- Kleinberg and Tardos: 3.1 covers trees (though not in much detail).
+- Bondy and Murty, Graph Theory with Applications: 1.5 covers the handshaking lemma, and 4.2 covers Hamilton cycles and Dirac's theorem.
+- Harris, Hirst and Mossinghoff, Combinatorics and Graph Theory: 1.3.1 and 1.3.2 covers trees in more detail than Kleinberg and Tardos, giving alternative proofs of the first few results proved in the video.
+- Even, Graph Algorithms: 2.1 proves an analogue of the fundamental lemma of trees.
+ 
+Errata:
+
+3-1: The definition for weak connectedness stated in the video is subtly wrong. A directed graph is weakly connected when for all vertices u and v, there is a path from u to v ignoring edge directions, not when there is a path from u to v or from v to u (but maybe not both). For example, the graph with vertex set {1,2,3} and edge set {(1,2), (3,2)} is weakly connected under the first (correct) definition, but not under the second (incorrect) definition.
+
+3-4: At the end of slide 6, the definition of a leaf as a degree-1 vertex is correct for unrooted trees. For rooted trees, the definition is the same except that the root cannot be a leaf, even if it has degree 1.
+
+--------------------------------------------------------------------------------------
+
+WEEK 4
+
+4-1: Graph Representations
+https://web.microsoftstream.com/video/82c86d54-4a25-4d0a-85ae-2d9932168381
+
+4-2: Depth-first Search
+https://web.microsoftstream.com/video/5d212f0c-ee34-4ded-a4fb-cef7f88190fb
+
+4-3: Breadth-first Search
+https://web.microsoftstream.com/video/566adfb0-7e7a-4b21-ac64-23eb3a4cf6dd
+
+4-4: Dijkstra's algorithm
+https://web.microsoftstream.com/video/2a3bfb78-236a-4cb1-b04f-350aabe57607
+
+Readings:
+
+- Cormen et al.: 22.1 covers graph representations, 22.2 covers breadth-first search, 22.3 covers depth-first search, and 24.3 covers Dijkstra's algorithm.
+- Kleinberg and Tardos: 3.2 and 3.3 cover graph representations, breadth-first search and depth-first search, and 4.4 covers Dijkstra's algorithm.
+- Skiena: 5.2 covers graph representations, 5.6 covers breadth-first search, 5.8 covers depth-first search, and 6.3.1 covers Dijkstra's algorithm.
+- Erickson: 5.3 and 5.4 cover graph representations, and 5.5, 5.6 and 8.6 cover breadth-first search, depth-first search, and Dijkstra's algorithm.
+
+Errata:
+
+None
+
+--------------------------------------------------------------------------------------
+
+WEEK 5
+
+5-1: Matchings I: Definitions
+https://web.microsoftstream.com/video/3961164b-f6e1-4402-b30a-704df22df2db
+
+5-2: Matchings II: Finding the maximum
+https://web.microsoftstream.com/video/8014b784-a815-4bd5-8dff-9bc796675883
+
+5-3: MSTs I: Prim's algorithm
+https://web.microsoftstream.com/video/d534c54d-b97d-4073-927d-c22f7a7c77f5
+
+5-4: MSTs II: Kruskal's algorithm https://web.microsoftstream.com/video/e59fff7a-f380-48b6-b96e-34aad29a11fd
+
+Readings:
+
+- Cormen et al.: 23.1 and 23.2 cover Prim's algorithm and Kruskal's algorithm, although the section on Kruskal's algorithm won't make much sense until next week.
+- Kleinberg and Tardos: 4.5 covers Prim's algorithm and Kruskal's algorithm.
+- Skiena: 6.1.1 covers Prim's algorithm, and 6.1.2 covers Kruskal's algorithm.
+- Erickson: 7.1, 7.2, 7.4 and 7.5 cover Prim's algorithm and Kruskal's algorithm.
+- Bondy and Murty, Graph Theory with Applications: 5.1 covers matchings and augmenting paths. (Matchings are covered in all four other books as well, but from a different perspective that we will come to later in the course.)
+
+Errata:
+
+5-3: The proof of correctness of Prim's algorithm contains a subtle bug in the definition of f on slide 7. Starting from just after the statement that 2 <= I <= \|V\| on slide 7, the definition should read as follows:
+
+"Let v be the vertex added to T<sub>I-1</sub> by Prim's algorithm, so that V(T<sub>I</sub>) = V(T<sub>I-1</sub>) U {v}. Let C be the component of S - V(S<sub>I-1</sub>) containing v.
+
+Since S is a tree, it's connected, so there must be an edge f from C to S<sub>I-1</sub>. Also, S has no cycles, so f must be the only edge from C to S<sub>I-1</sub>."
+
+The proof should then continue as before, removing f from S and replacing it with e<sub>I-1</sub>. As before, after doing this, S is still a tree with w(S) <= w(T), and now S<sub>I</sub> = T<sub>I</sub>.
+
+5-4: In the graph on slide 5, the weight-1 edge should be a weight-10 edge (so that the situation shown in the slides can actually happen).
+
+--------------------------------------------------------------------------------------
+
+WEEK 6
+
+Reading week, no new material
+
+--------------------------------------------------------------------------------------
+
+WEEK 7
+
+6-1: Making Kruskal's algorithm fast
+https://web.microsoftstream.com/video/1ee01d08-408a-4e63-bf7a-e445a587e86e
+
+6-2: The union-find data structure
+https://web.microsoftstream.com/video/6b33a01f-ede7-4cbe-a266-650072bdc172
+
+6-3: 2-3-4 trees I: Search and insertion
+https://web.microsoftstream.com/video/a5c99db0-8715-4f11-910b-c92b8b8cb9a0
+
+6-4: 2-3-4 trees II: Deletion and alternative forms
+https://web.microsoftstream.com/video/bf1b6559-5ec5-4f55-8647-f653f16ac06f
+
+Readings:
+
+- Cormen et al.:  21.1-21.3 cover the union-find data structure. 13.1-13.4 cover red-black trees and are an amazing advertisement for never thinking of 2-3-4 trees as red-black trees unless you're implementing them. 18.1-18.3 cover B-trees, which are a slight generalisation of 2-3-4 trees and include 2-3-4 trees as a special case.
+- Kleinberg and Tardos: 4.6 covers the union-find data structure.
+- Skiena: 6.1.3 covers the union-find data structure. 3.4.3 discusses balanced trees, and 12.1 gives a detailed comparison of 2-3-4 trees to other data structures with similar purposes and complexities, but the book doesn't go into any detail on implementation.
+- Erickson: The union-find data structure is covered in the "Director's cut" [here](https://jeffe.cs.illinois.edu/teaching/algorithms/notes/11-unionfind.pdf).
+
+Errata:
+
+6-4: The 2-3-4 tree in the transferring example of slide 3 in the video isn't valid, as it shows a 3-node with values (2,5) and a middle child (1,3). This doesn't matter for the example, but these 3-nodes should be (1,5) and (2,3) respectively.
+
+There's one exception to the rule on slide 7: in a red-black tree, a black node with a single child is OK if that child is a red leaf (corresponding to a 3-node leaf in a 2-3-4 tree).
+
+--------------------------------------------------------------------------------------
+
+WEEK 8
+
+7-1: Linear programming
+https://web.microsoftstream.com/video/4a000e28-ec3f-4ad0-b954-c61df489a869
+
+7-2: How the simplex algorithm works
+https://web.microsoftstream.com/video/1ec30dfd-fd11-432b-9bd6-45d58408607c
+
+7-3: Flow networks
+https://web.microsoftstream.com/video/b65844e8-4f13-415a-80be-13eb741d30b8
+
+7-4: The Ford-Fulkerson algorithm
+https://web.microsoftstream.com/video/7ecfc54e-86d4-4287-87a0-d861dc689d8b
+
+Readings:
+
+- Cormen et al.: 29.1 and 29.2 give an overview of linear programming. Avoid sections 29.3-5, which discuss the simplex algorithm, unless you are morbidly curious about how it's possible to spend 28 pages discussing it in detail without once mentioning the geometric intuition behind it. 26.1 covers flow networks, and 26.2 covers Ford-Fulkerson.
+- Kleinberg and Tardos: 11.4 gives an overview of linear programming and goes into detail about the application to vertex cover. 7.1 and 7.2 cover flow networks and Ford-Fulkerson.
+- Skiena: 13.6 discusses linear programming from a high-level "how do I use/solve this?" perspective. Their coverage of flow networks and Ford-Fulkerson in 6.5 is bound up with their coverage of bipartite matchings, for reasons that will become clear next week.
+- Erickson: Network flows and Ford-Fulkerson are covered in 10.1-10.4.
+- A pleasant song to listen to while you reflect on how the details of the simplex algorithm are non-examinable: https://www.youtube.com/watch?v=pg9l7Mx27t8
+
+Errata:
+
+8-1: Added a slide to the end saying in writing what I said in the video - that this is a general technique for reducing the problem of solving an arbitrary linear program to the problem of solving a linear program in standard form.
+
+8-3: In slides 5 and 6 in the video, where the definition of a flow is recalled, f<sup>+</sup>(v) and f<sup>-</sup>(v) are the wrong way around. As in the original definition on slide 4, f<sup>+</sup>(v) should be the sum of f(v,w) over all vertices w in v's out-neighbourhood, and f<sup>-</sup>(v) should be the sum of f(u,v) over all vertices u in v's in-neighbourhood.
+
+8-4: In slide 4 in the video the same typo appears again, with f<sup>+</sup>(v) and f<sup>-</sup>(v) the wrong way around when the definition of a flow is recalled.
+
+--------------------------------------------------------------------------------------
+
+WEEK 9
+
+8-1: Why Ford-Fulkerson looks so familiar
+https://web.microsoftstream.com/video/4972ee34-ffe0-4187-b197-9c0e79a05036?list=studio
+
+8-2: Applications of Ford-Fulkerson
+https://web.microsoftstream.com/video/34fe7832-ebbe-4fd3-8fec-6b25ef9e8369
+
+8-3: SAT and the class NP
+https://web.microsoftstream.com/video/b0570116-7902-4b76-bdb1-8f2453a14931
+
+8-4: NP-completeness<br>of 3-SAT
+https://web.microsoftstream.com/video/a17a8a15-656d-4658-96ef-8bb1492e0b57
+
+Readings:
+
+- Cormen et al.: 26.3 covers maximum matchings in bipartite graphs from a flow perspective. 34-34.3 covers the definitions of NP-completeness, and 34.4 and 34.5 give examples of NP-completeness proofs.
+- Kleinberg and Tardos: 7.5 covers maximum matchings in bipartite graphs from a flow perspective, and 7.7 covers circulations. 8.1 and 8.3 cover the definition of NP-completeness, and 8.2 covers the proof that 3SAT is NP-complete.
+- Skiena: 9.1-9.3 cover the idea of a reduction, with several examples. 9.4 covers the proof that 3-SAT is NP-complete. 9.5 gives some more examples of reductions, 9.6 gives some general advice for coming up with reductions, and 9.9 discusses the philosophy of P versus NP.
+- Erickson: 11.2 covers vertex capacities and 11.3 covers maximum matchings in bipartite graphs from a flow perspective. 12.1-12.3 and 12.5 set out the key definitions for NP-completeness.
+
+Errata:
+
+8-1: In slide 2 the same typo appears yet again, with f<sup>+</sup>(v) and f<sup>-</sup>(v) the wrong way around when the definition of a flow is recalled. (Don't copy-and-paste your code, kids!)
+
+On slide 5, the correct capacity of the middle edge is 1.5\6 = 9, not 18.
+
+Also on slide 5, "iff" in the video is actually not a typo - it's a standard abbreviation for "if and only if". But it's not used elsewhere in the unit, so I've replaced it with an arrow in the video.
+
+8-3: That Harry Potter reference is coming out before the video is released this year, trans rights are human rights.
+
+--------------------------------------------------------------------------------------
+
+WEEK 10
+
+9-1: Independent sets<br>and vertex covers
+https://web.microsoftstream.com/video/4c4559d5-1e4c-4c78-9fcb-2203019961cf
+
+9-2: Non-examinable<br>sketch proof of the Cook-Levin theorem
+https://web.microsoftstream.com/video/3d13c8c6-731a-4e8b-ae2f-12b3802c9aa7
+
+9-3: NP versus Co-NP
+https://web.microsoftstream.com/video/92b0110c-5699-4553-98b1-ed26d98629d5
+
+9-4: Dealing with NP-hard problems
+https://web.microsoftstream.com/video/89c21e1a-1d3e-4761-a7f9-a3609fb00643
+
+Readings:
+
+- Cormen et al.: 34.3 proves an alternative form of the Cook-Levin theorem, proving directly that "Circuit-SAT" is NP-complete. 34.5 gives an alternative NP-completeness proof for vertex cover.
+- Kleinberg and Tardos: 8.2 gives a slicker reduction from 3-SAT to independent set, and 8.4 proves the alternative form of the Cook-Levin theorem. 8.9 defines Co-NP. 8.10 gives a nice taxonomy of NP-hard problems for use in reductions. Chapter 10 gives a detailed treatment of treewidth, and chapter 11 gives a detailed treatment of approximation algorithms.
+- Skiena: 9.5.2 gives an alternative proof that vertex cover is NP-hard. 9.6-9.8 give a nice set of heuristics for coming up with hardness proofs in general. 9.10 discusses how to deal with NP-complete problems.
+- Erickson: 12.7 gives a slicker reduction from 3-SAT to independent set, 12.8 discusses how to come up with hardness proofs in general, 12.9 and 12.14 gives a reduction from independent set to vertex cover, and 12.13 gives a nice taxonomy of NP-complete problems for use in reductions.
+- Arora and Barak, Computational Complexity: 2.3 gives the full version of the proof of Cook-Levin I sketched in video 10-2, and 2.6 and 2.7 feature a good discussion of NP versus Co-NP.
+- The most accurate (and funniest) pop-culture exposition of quantum computing I've ever seen: https://www.smbc-comics.com/comic/the-talk-3
+
+Errata:
+
+9-1: In the recapped definition of VC in slides 9 and 10, the problem should ask: "Does G contain a vertex cover of size at most k?" rather than "at least k".
+
+--------------------------------------------------------------------------------------
+
+WEEK 11
+
+10-1: Weighted interval<br>scheduling
+https://web.microsoftstream.com/video/0a0f4213-c195-4f9a-826c-989008e42c98
+
+10-2: Dynamic programming
+https://web.microsoftstream.com/video/88dc7cbd-8086-4332-9e35-a32dc03baffc
+
+10-3: The Bellman-Ford algorithm
+https://web.microsoftstream.com/video/6526b3af-161f-4303-82f3-5e3a9e57417e
+
+10-4: The real Bellman-Ford algorithm
+https://web.microsoftstream.com/video/1fab89f0-f773-4b1e-b048-b42227dcb65e
+
+Readings:
+
+- Cormen et al.: Dynamic programming as a concept is covered in chapter 15 with many of the same examples given in Object-Oriented Programming and Algorithms last year (e.g. pole-cutting is 15.1). Weighted interval scheduling is demoted to an exercise in 16.1, which focuses on unweighted interval scheduling. Bellman-Ford is covered in 24.1, but only the "final version" covered in video 11-4 and not from the same dynamic programming perspective used in the unit. Cormen isn't very useful here.
+- Kleinberg and Tardos: Dynamic programming as a concept is covered in chapter 6. Weighted interval scheduling is covered in 6.1, and Bellman-Ford is covered in 6.8 in a very similar way to how we cover it. The rest of chapter 6 consists of a whole lot more examples of dynamic programming algorithms with an emphasis on how you would come up with them, and with a very good collection of exercises at the end of the chapter. Very strongly recommended.
+- Skiena: Dynamic programming as a concept is covered in chapter 8. The coverage is good and worth reading, but the examples used are completely different - weighted interval scheduling does not appear in the book, and Bellman-Ford is only mentioned in passing in 15.4.
+- Erickson: Dynamic programming as a concept is covered in chapter 3. Again, good and worth reading (although I strongly disagree with the man about the value of greedy algorithms), but uses different examples to those covered in the course. As with Kleinberg and Tardos, has a very large and very good selection of exercises at the end of the chapter, but they seem to be a fair bit harder.
+
+11-3: The version of GoodPath in the video has a subtle bug in the base case. Lines 2-3 should read:
+
+if s = t then
+	Return the empty walk.<br>	
+else if k = 0 then
+	Return None.
+	
+The rest of the algorithm is correct.
